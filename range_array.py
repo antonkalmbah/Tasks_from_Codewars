@@ -3,8 +3,8 @@ lines = ["a", "b", "c", "", "o"]
 
 def number(lines):
     lines_2 = []
-    for z, i in enumerate(lines):
-        lines_2.append(f'{z+1}: {i}')
+    for z, i in enumerate(lines, 1):
+        lines_2.append(f'{z}: {i}')
 
     print(lines_2)
 
