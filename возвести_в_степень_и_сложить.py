@@ -5,8 +5,8 @@
 def square_sum(a, b, c):
     print(a ** 2 + b ** 2 + c ** 2)
 
+
 square_sum(1, 2, 2)
-    
 
 # def square_sum(numbers):
 #     return sum(x ** 2 for x in numbers)
